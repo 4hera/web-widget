@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
- "Web Widget" library for Control Path platform
+<b>Web Widget</b> library for Control Path platform
 </p>
 
 <br/>
