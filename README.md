@@ -4,7 +4,7 @@
 "Web Widget" library for Control Path platform
 
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](http://portal.4thewall.com/admin/assets/upload_file/control%20path%20web%20widget.png)
 
     
 ## Lists
