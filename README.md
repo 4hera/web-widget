@@ -19,23 +19,12 @@
     
 ## Lists
 
-- Charts
-    * Line
-    * Bar
-    * Scatter
-    * Pie
-    * Donut
-    * Area
-    * Gauge
--    
+- Example    
 
+## Release Notes
 
-  
-## Screenshots
+- 24/04/2023 example added.    
 
-![Uygulama Ekran Görüntüsü](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-  
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
