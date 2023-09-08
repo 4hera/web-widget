@@ -1,0 +1,12 @@
+.content {
+    justify-content: flex-start;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+}

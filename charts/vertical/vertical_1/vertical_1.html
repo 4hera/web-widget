@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Path Vertical_1 Widget</title>
+    <link rel="stylesheet" href="vertical_1.css">
+</head>
+
+<body>
+    <div id="container" class="container">
+        <div class="holder" id="holder">
+            <div class="step-div" id="steps">
+                <div class="step-label" style="--step-index: 1">100---</div>
+                <div class="step-label" style="--step-index: 2">90----</div>
+                <div class="step-label" style="--step-index: 3">80----</div>
+                <div class="step-label" style="--step-index: 4">70----</div>
+                <div class="step-label" style="--step-index: 5">60----</div>
+                <div class="step-label" style="--step-index: 6">50----</div>
+                <div class="step-label" style="--step-index: 7">40----</div>
+                <div class="step-label" style="--step-index: 8">30----</div>
+                <div class="step-label" style="--step-index: 9">20----</div>
+                <div class="step-label" style="--step-index: 10">10----</div>
+                <div class="step-label" style="--step-index: 11"></div>
+                <div class="content">
+                    <div class="resizeable" id="resizeable" ontouchstart="startDrag(event)"
+                        onmousedown="startDrag(event)">
+                        <div class="step-slider"></div>
+                        <div class="resize-handle">↕</div>
+                        <div class="content">
+                            <label class="resize-height-label none-select" id="resizeHeightLabel">###</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../../../web-widget.js"></script>
+<script src="vertical_1.js"></script>
+
+</html>

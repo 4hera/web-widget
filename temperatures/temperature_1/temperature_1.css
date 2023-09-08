@@ -1,0 +1,37 @@
+.content {
+    background-color: #838383;
+    width: 90px;
+    height: 390px;
+    border-radius: 15px;
+    position: relative;
+    top: 0px;
+}
+
+.track {
+    background-color: #f7f7f7;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 70px;
+    border-radius: 15px 15px 0px 0px;
+    height: 330px;
+}
+
+.track-value {
+    height: 37%;
+    background-color: green;
+    border-radius: 10px 10px 0px 0px;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+
+}
+
+.track-label {
+    position: relative;
+    top: -46px;
+    text-align: center;
+    font-size: 2.4rem;
+    color: white;
+}
+

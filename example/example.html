@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Path Widget Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h2>Control Path Widget Example</h2>
+    </div>
+    <div class="grid-container">
+        <fieldset class="variable">
+            <legend>Variable:</legend>
+            <input class="text-center" type="text" id="variable-value" placeholder="Variable Value" disabled />
+            <input class="text-center" type="text" id="variable-name" placeholder="Variable Name" value="index" />
+            <input class="text-center" type="text" id="variable-apiID" placeholder="Variable API ID" />
+            <input class="text-center" type="text" id="variable-new-value" placeholder="Variable New Value" />
+            <button id="update-var-btn">Update Variable</button>
+        </fieldset>
+        <fieldset class="run">
+            <legend>Run:</legend>
+            <input class="text-center" type="text" id="single-command-apiID" placeholder="Single Command API ID" />
+            <button id="run-single-command-button">Run Single Command</button>
+            <input class="text-center" type="text" id="group-command-apiID" placeholder="Group Command API ID" />
+            <button id="run-group-command-button">Run Group Command</button>
+            <input class="text-center" type="text" id="script-apiID" placeholder="Script API ID" />
+            <button id="run-script-button">Run Script</button>
+        </fieldset>
+    </div>
+</body>
+<script src="../web-widget.js"></script>
+<script src="script.js"></script>
+
+</html>
